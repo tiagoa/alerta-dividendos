@@ -1,0 +1,14 @@
+{
+    "name": "tiagoa/alerta-dividendo",
+    "type": "project",
+    "description": "Scrap que faz login no portal do CEI, extrai os dividendos a receber no dia e envia via e-mail",
+    "license": "MIT",
+    "require": {
+        "symfony/browser-kit": "^5.1",
+        "symfony/http-client": "^5.1",
+        "symfony/mime": "^5.1",
+        "symfony/css-selector": "^5.1",
+        "symfony/mailer": "^5.1",
+        "symfony/google-mailer": "^5.1"
+    }
+}
